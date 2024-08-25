@@ -1,0 +1,20 @@
+.form-box{
+  
+  width: 30% !important;
+  border-radius: 8px;
+  padding: 20px;
+
+
+}
+.underline{
+  height: 1px;
+  width: 90%;
+  background-color: #e7e7e7;
+  border: 0px transparent;
+}
+.logo-container{
+  width: 10%;
+}
+.bi-globe{
+  color: #e7e7e7 !important;
+}

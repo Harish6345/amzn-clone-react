@@ -1,0 +1,97 @@
+.underlineflex p{
+  font-size: smaller;
+  padding: 10px 10px 3px 10px;
+  margin: 0px;
+}
+.underline{
+  height: 1px;
+  width: 100%;
+  background-color: #e7e7e7;
+  border: 0px transparent;
+
+}
+.section{
+  width: 90%;
+  font-size: small;
+
+
+}
+.section a{
+  color: #007185;
+  text-decoration: none;
+}
+.section1,.section2,.section3{
+ height: 1000px;
+
+}
+.section2{
+  width: 30%;
+}
+.section3{
+  width: 20% !important;
+}
+.rollimg-container{
+  width: 10%;
+}
+.main-img{
+  width: 90%;
+}
+.underline{
+  height: 1px;
+  width: 100%;
+  background-color: #e7e7e7;
+  border: 0px transparent;
+}
+.offer-imgcont{
+  width: 10%;
+}
+.offer-box {
+  width: 100%;
+  height: 150px;
+  
+}
+.offerbox1,.offerbox2,.offerbox3{
+  width: 30%;
+  height: 100%;
+  padding: 1%;
+}
+.offer-box p{
+  font-size: small;
+  margin: 0%;
+  overflow: hidden;
+}
+.offer-box h6{
+  font-size: x-small;
+}
+.offer-box a{
+  font-size: small;
+}
+.del-related1{
+  width: 18%;
+  padding: 1%;
+}
+.del-related1 img{
+  width: 80%;
+}
+.del-related1 p{
+  font-size: x-small;
+  color: #007185;
+  
+}
+.main-parties{
+  width: 80%;
+  height: 90%;
+}
+.location-container{
+  height: 30px;
+  width: 100%;
+}
+.location-container img{
+  width: 30%;
+}
+.btn-leg{
+  background-color: orange;
+  color: black;
+  padding: 8px;
+  margin-top:10px ;
+}

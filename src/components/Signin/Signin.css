@@ -1,0 +1,20 @@
+.sign-up{
+   
+ width: 25%;
+ margin-top: 20px;
+
+
+}
+.logo-containers{
+  width: 20%;
+  
+}
+span a{
+  text-decoration: none;
+}
+.underline{
+  height: 1px;
+  width: 75%;
+  background-color: #e7e7e7;
+  border: 0px transparent;
+}

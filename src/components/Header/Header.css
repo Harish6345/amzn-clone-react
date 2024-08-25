@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-header {
+  min-width: 100%;
+  background-color: black;
+
+}
+
+
+.primary-header {
+  height: 70px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.logo-container {
+  max-width: 7% !important;
+}
+
+.logo-image {
+  width: 100%;
+}
+
+.location {
+  color: white;
+ 
+}
+
+.loc-icon {
+  display: flex;
+  align-items: center;
+}
+
+.primary-header p {
+  color: #cccccc;
+  font-size: 13px;
+  text-align: center;
+}
+
+.primary-header h6 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dropdown select {
+  padding: 10px 0px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+  background-color: #e6e6e6;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+}
+
+.dropdown select option {
+  background-color: white;
+}
+
+.dropdown {
+  max-width: 5%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #cccc;
+  outline: none;
+  width: 91%;
+  font-size: 14px;
+}
+
+.search-bar {
+  display: flex;
+  min-width: 60%;
+  
+}
+
+.search-bar button {
+  min-width: 4%;
+  border: 1px solid #febd69;
+  background-color: #febd69;
+  border-radius: 0px 4px 4px 0 !important;
+  padding: 0px 0px 0px 5px !important;
+
+
+  
+}
+
+button .fa-search {
+  font-size: 20px;
+  color: black !important;
+}
+
+.dropdown1 a {
+  outline: none;
+}
+
+.account p {
+  color: #fff;
+  margin: 0;
+}
+
+.account h6 {
+  color: white;
+}
+
+.cart {
+  width: 3%;
+  color: #fff;
+}
+
+.fa-cart-shopping {
+  color: #ffff;
+  font-size: 25px;
+}
+
+.second-header {
+  background-color: #232f3e;
+  max-height: 30px;
+  color: white;
+  display: flex;
+  align-content: center;
+  padding: 0px 15px;
+}
+
+.main-modal {
+  min-width: 3%;
+}
+
+.text-bar {
+  min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.text-bar h6 {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.logo-nav {
+  width: 16%;
+}
+
+.logo-nav img {
+  width: 100%;
+}
+
+
+
+.offcanvas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.offcanvas-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.user-info h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.menu-section h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section ul li {
+  margin: 0.5rem 0;
+  cursor: pointer;
+ 
+}
+
+
+
+hr {
+  border: 1px solid #e7e7e7;
+  margin: 1rem 0;
+}
+.cart{
+  display: flex;
+}
+a{
+  text-decoration: none !important;
+}
+.main-modal button:nth-child(1){
+  max-width: 100%;
+}
+
+@media only  screen and (max-width:1300px) {
+  .text-bar h6 {
+    margin: 0;
+    font-size: 0.6rem;
+  }
+  .main-modal button:nth-child(1){
+    font-size:0.6rem ;
+  }
+  .location *{
+    font-size:small !important;
+  }
+  .dropdown{
+    min-width: 6%;
+  }
+  .search-bar button{
+    min-width: 6%;
+  }
+   .account{
+    display: none;
+   }
+   .cart{
+    min-width: 10%;
+   }
+  
+}
+
+@media only  screen and (max-width:1000px) {
+  .logo-container{
+    min-width: 15%;
+  }
+  .pucuk{
+    display: none;
+  }
+  .text-bar h6 {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .main-modal button:nth-child(1){
+    font-size:0.9rem ;
+  }
+  .location *{
+   display: none;
+  }
+ 
+ .account{
+  display: none;
+ }
+ .cart{
+  width: 10%;
+
+ }
+ .dropdown{
+  min-width: 9%;
+}
+.search-bar button{
+  min-width: 9%;
+}
+}
+@media only  screen and (max-width:600px){
+  .main-modal button:nth-child(1){
+    font-size:0.4rem ;
+  }
+  .text-bar h6 {
+    margin: 0;
+    font-size: 0.4rem;
+  }
+  .main-modal p{
+    font-size: xx-small;
+  }
+  .search-bar button{
+    max-width:12% ;
+  }
+  .account{
+    display: none;
+   }
+   .cart{
+    display: none;
+   }
+   .drop-downmenu{
+    display: none;
+   }
+   .search-bar{
+    max-width: 50%;
+   }
+   .search-bar input{
+    max-width: 60%;
+   }
+  .search-bar .dropdown{
+    min-width: 20%;
+  }
+  .search-bar button{
+    min-width: 20% !important;
+  }
+  .primary-header{
+    padding: 0px ;
+  }
+
+}
